@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 150px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper > header {
+  height: 680px;
+  position: relative;
+  top: -60px;
+}
+
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 7px;
+  padding: 10px;
+  border: 3px solid #fff;
+  font-size: 1.1rem;
+}
+
+.white-button {
+  background-color: #fff;
+}
+
+.tranparent-50-button {
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.transparent-button {
+  background-color: transparent;
+  color: #fff;
+}
+
+.circle-button {
+  border-radius: 50%;
+}
+.play-icon::before {
+  content: ">";
+  margin-right: 5px;
+}
+.play-icon-center::before {
+  content: ">";
+  padding: 0 5px;
+}
+.plus-icon-center::before {
+  content: "+";
+  padding: 0 5px;
+}
+.good-icon-center::before {
+  content: "$";
+  padding: 0 5px;
+}
+.more-icon-center::before {
+  content: "..";
+  padding: 0 5px;
+}
+
+.info-icon::before {
+  content: "i";
+  margin-right: 5px;
+}
+.icon-center {
+  text-align: center;
+  margin: 0;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.buttons-container {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
